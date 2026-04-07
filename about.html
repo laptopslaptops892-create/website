@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <style>
+        header h1{
+            text-align: center;
+            background-color: lightgreen;
+        }
+        header h1:hover{
+            color: black;
+            background-color: aqua;
+        }
+        nav a {
+            text-decoration: none;
+            font-size: medium;
+            color: white;
+
+            
+            
+        }
+      body {
+        background-image: url(images/sawirka2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0%;
+
+
+      }
+      @media (max-width: 768px) {
+
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .konteenar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+}
+      
+      
+      .konteenar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+        
+        
+        
+      }
+      .moha{
+        background: rgb(241, 201, 201);
+        border-radius: 200px;
+        text-align: center;
+        padding: 20px;
+        max-width: 300px;
+        width: 90;
+        
+      }
+      .moha:hover{
+        background-color: lightseagreen;
+        color: rgb(123, 235, 11);
+      }
+      #moha{
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+        color: white;
+      }
+      #moha:hover{
+        background-color: lightcyan;
+        color: black;
+
+      }
+      .btn{
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: larger;
+        background-color: rgb(111, 201, 111);
+        
+
+      }
+      .btn:hover{
+        background-color: chocolate;
+      }
+      #fuutar{
+        text-align: center;
+        background: rgb(104, 151, 104);
+      }
+      @media (max-widh:768){
+        #moha h1{font-size: 20px;}
+        #moha p{
+          font-size: 14px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <header><h1>About us</h1></header>
+    <nav>
+      <a href="./index.html">Home</a> &nbsp; &nbsp;
+      <a href="./about.html">About</a> &nbsp; &nbsp;
+      <a href="./history.html">History</a> &nbsp; &nbsp;
+      <a href="./contant.html">Contant</a>
+    </nav>
+    <hr>
+     <div id="moha">
+            <h1>about our school</h1>
+            <p><h2>
+                iskuulkeena waa hoyaga aqoonta, <br> aqlaaqda iyo bustaqbal ifaya <br> waxaan ku dadaalnaa inaa ardeda siino <br>wax barasho tayo saro leh. oo iku dheeli tiran <br>
+                aqoon iyo amshax <br> wanagsan
+            </h2></p>
+        </div>
+    <br> <br><br><br><br><br><br><br><br><br>
+    <main>
+       
+      <div class="konteenar">
+        <div class="moha">
+          <h1>about <br> school</h1>
+          <p>
+             imaam nawaawi <br> waa iskuul <br> bixiya wax <br>barasho tayo leh <br> oo
+            diirada <br> saareysa <br> aqoon io aqlaaq.
+          </p>
+        </div>
+        <div class="moha">
+          <h1>our <br> mission</h1>
+          <p>
+            inaan bixino <br> waxbarasho <br> tayo leh <br> oo casri ah <br> oo la jaanqada <br> cariga <br>
+            maanta
+          </p>
+        </div>
+        <div class="moha">
+          <h1>our <br> vision</h1>
+          <p>
+            inaan noqono <br> iskuulka <br> ugu fiican <br> dalka <br> kaas oo bixiya <br> manhajka casri <br>
+            oo tayo leh
+          </p>
+        </div>
+      </div>
+      <div>
+        <button class="btn">join our school</button>
+      </div>
+    </main>
+    <div id="fuutar">
+      <footer>
+        <p>copy &copy; 2026 imaam al nawaawi</p>
+        <p> Email: scool@gmail.com</p>
+        <p>contact: 612535078</p>
+      </footer>
+    </div>
+    
+  </body>
+</html>

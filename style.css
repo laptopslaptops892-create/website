@@ -1,0 +1,94 @@
+header h1 {
+    background: lightgreen;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+
+}
+nav{
+    text-align: center;
+    background: rgb(205, 219, 205);
+    font-size: larger;
+}
+a
+{
+    text-decoration: none;
+
+}
+a:hover{
+    color:beige blue;
+}
+body{
+    background-color: aliceblue;
+    .konteenar{
+        background-color: rgb(190, 190, 231);
+        border-radius: 100px;
+    }
+}
+.taariikh{
+
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(to right , #00c6ff, 0072ff);
+        color: white;
+        
+        }
+        div img{
+            width: 100%;
+            background: chartreuse
+            ;
+            height: 100px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3) ;
+        }
+        .foom{
+            background: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 60px;
+
+
+        }
+        .foom:hover{
+            border-radius: 1000px;
+        }
+        #title{
+            font-size: xx-large;
+
+        }
+        .moha{
+            padding: 10px;
+            margin: 10px;
+            width: 50%;
+            border-radius: 10px;
+        }
+        #fariin{
+        width: 50%;
+        height: 120px;
+        text-align: center;
+
+        }
+        #massage{
+            margin: 20px;
+            width: 25%;
+            height: 100;
+            border-radius: 10px;
+            background: blue;
+            color: white;
+            font-size: medium;
+        }
+.macluumaad{
+    background: rgb(250, 252, 252);
+    border-radius: 20px;
+  
+    margin: 60px;
+    text-align: center;
+}
+.macluumaad:hover{background-color: lightgreen;
+    text-align: left;
+
+}
+#p{
+    font-size: small;
+
+}
